@@ -47,6 +47,9 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr htmlcov/
 	rm -fr .pytest_cache
 
+format_all:
+	black ml_model_evaluation/	
+
 lint/flake8: ## check style with flake8
 	flake8 ml_model_evaluation tests
 lint/black: ## check style with black

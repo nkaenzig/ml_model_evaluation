@@ -5,9 +5,6 @@
 import pytest
 
 
-from ml_model_evaluation import ml_model_evaluation
-
-
 @pytest.fixture
 def response():
     """Sample pytest fixture.
